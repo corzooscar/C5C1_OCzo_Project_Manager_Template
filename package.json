@@ -1,0 +1,15 @@
+{
+  "name": "project-manager-spa",
+  "version": "1.0.0",
+  "description": "SPA for internal project management with role-based access",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "vite": "^5.0.0"
+  }
+}

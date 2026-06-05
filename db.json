@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana García",
+      "email": "manager@test.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": 2,
+      "name": "Carlos López",
+      "email": "user@test.com",
+      "password": "123456",
+      "role": "collaborator"
+    },
+    {
+      "id": 3,
+      "name": "Sofía Martínez",
+      "email": "sofia@test.com",
+      "password": "123456",
+      "role": "collaborator"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "description": "Corporate website redesign with modern UI/UX",
+      "status": "In Progress",
+      "createdAt": "2025-01-15",
+      "assignedTo": 2
+    },
+    {
+      "id": 2,
+      "name": "Mobile App",
+      "description": "Cross-platform mobile application for clients",
+      "status": "Pending",
+      "createdAt": "2025-02-01",
+      "assignedTo": 3
+    },
+    {
+      "id": 3,
+      "name": "API Integration",
+      "description": "Third-party payment gateway integration",
+      "status": "Completed",
+      "createdAt": "2025-01-10",
+      "assignedTo": 2
+    },
+    {
+      "id": 4,
+      "name": "Dashboard Analytics",
+      "description": "Internal analytics dashboard for sales team",
+      "status": "In Progress",
+      "createdAt": "2025-03-05",
+      "assignedTo": 3
+    }
+  ]
+}
